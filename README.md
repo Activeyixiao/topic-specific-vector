@@ -1,8 +1,5 @@
 This project aims at a better word vector to capture the meaning of word by using the current language model
 
-# VECTOR STATUS
-
-Please update [this spreadsheet](https://docs.google.com/spreadsheets/d/1uZgHYo4_bqWAHgq0w3IS9JmWBjkwY2FqxcBjEZD4btA/edit?usp=sharing)
 
 # Steps 1: 
 - get word-mention-topic-vectors
