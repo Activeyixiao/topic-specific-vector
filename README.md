@@ -51,7 +51,4 @@ Evaluate word-mention-topic-vector on three kinds of tasks:
 
 ## Run evaluations on lexical feature classification
 - Run command `python3 word_fea_classification.py -language-model -data-set`
-## Run evaluations on relation classification
-- Run command `python3 RC.py -input-data -language-model -outputfoler`
-## Run ontology completion
-- Run command `python3 OC.py -input-data -language-model -outputfoler`
+
