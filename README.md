@@ -29,7 +29,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 - Run command `python3 sampling_sentences.py` 
 - Until now, sentence sampling is completed, there are two output folders, one containing words as foler with their selected topic-mention sentences inside (strategy for T-type), the other containing words as files with general sentences inside (strategy for C-type).
 
-## Get vectors from sampling sentences using popular language models (BERT-BASE,BERT-LARGE,ROBERTA-BASE, ROBERTA-LARGE)
+## Get vectors from sampling sentences using contextual language models (BERT<base,large>,ROBERTA<base,large>)
 - Run command `python3 word_topic_vector.py`
 
 # Download word Vectors
