@@ -13,13 +13,12 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 
 - the link to download these datasets: https://cf-my.sharepoint.com/:u:/r/personal/wangy306_cardiff_ac_uk/Documents/repo.zip?csf=1&web=1&e=aUQCpl
 - Run command: `python3 words_collection.py`
-- The outputfile is: "all_words.txt", this text file include all the word that we are going to find mentions in the wiki-corpus.
+- The outputfile is: "all_words.txt", this text file include all the word that we are going to find mentions in the wiki-corpus. You can also use words from your interested dataset instead. 
 
 ## Apply LDA on wiki-dump:
 - In this step we apply LDA (Latent Dirichlet allocation) on wiki-dump and get k-topic mixed distributions.
-- Follow the beginning instruction on this tortual and download the wiki-dump and get required tf-idf files:https://radimrehurek.com/gensim/wiki.html
-- run LDA on the output documents: `python3 LDA_model.py`
-- The result dictinary file maps each wiki-tilte to its mixed topic distributions 
+- Follow the instruction on this tortual (https://radimrehurek.com/gensim/wiki.html) and get required files (tf-idf and something else) for wikidump:
+- run LDA on the output documents: `python3 LDA_model.py` (This command generate a json file maps each wiki-tilte to its topic distributions)
 - you can also skip this section and directly download the wiki-topic-distribution in here: https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
 
 ## Sentence sampling:
