@@ -2,8 +2,8 @@
 
 In this project, we propose a method for learning word representations that follows this basic strategy, but differs from standard word embeddings in two important ways. First, we take advantage of contextualized language models (CLMs) rather than bags of word vectors to encode contexts. Second, rather than learning a word vector directly, we use a topic model to partition the contexts in which words appear, and then learn different topic-specific vectors for each word.
 
+This repository will guide you step to step to obtain word-topic-vectors. Also, you could skip these steps and directly download all the word-vector as tested in our paper. 
  
-- get word-mention-topic-vectors
 ## Download clean and pre-processed Wikipedia corpus
 
 - The link to download the corpus:https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS
