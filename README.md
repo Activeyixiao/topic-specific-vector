@@ -27,7 +27,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
   wiki-topic-distribution: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
 
 - Run command `python3 word_wiki_mention.py`
-- this line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of that word's occurance
+- the above line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of that word's occurance
 - Run command `python3 WTV12.py` 
 
 - The output files are two documents, one containing words as foler with their selected topic-mention sentences inside, the other containing words as files with general sentences inside.
