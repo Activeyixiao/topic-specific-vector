@@ -22,7 +22,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 - you can also skip this section and directly download the wiki-topic-distribution from here: https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
 
 ## Sentence sampling:
-- collect sample sentences for using different strategies (C and T types respectively)
+- collect sample sentences for using two strategies (C and T types respectively)
 - file required: 
   all words collection: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
   25_topic_model: https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
