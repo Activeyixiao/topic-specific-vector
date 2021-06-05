@@ -1,7 +1,8 @@
+# Deriving Word Vectors from Contextualized Language Models\\ using Topic-Aware Mention Selection
+
 In this project, we propose a method for learning word representations that follows this basic strategy, but differs from standard word embeddings in two important ways. First, we take advantage of contextualized language models (CLMs) rather than bags of word vectors to encode contexts. Second, rather than learning a word vector directly, we use a topic model to partition the contexts in which words appear, and then learn different topic-specific vectors for each word.
 
-
-# Steps 1: 
+ 
 - get word-mention-topic-vectors
 ## Download clean and pre-processed Wikipedia corpus
 
