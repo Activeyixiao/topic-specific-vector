@@ -16,14 +16,14 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 
 ## Apply LDA on wiki-dump:
 - In this step we apply LDA (Latent Dirichlet allocation) on wiki-dump and get k-topic mixed distributions.
-- Follow the instruction on this tortual (https://radimrehurek.com/gensim/wiki.html) and get required files (tf-idf and something else) for wikidump:
+- Follow the instruction on this tortual (https://radimrehurek.com/gensim/wiki.html) and get required files (tfidf, wordids, and cow as required for the below command line) for wikidump:
 - run LDA on the output documents: `python3 LDA_model.py -k -alpha -wordids -tfidf -bow -workers -build_dir` (This command generate a json file maps each wiki-tilte to its topic distributions)
-- you can also skip this section and directly download the wiki-topic-distribution in our experiment setting (k=25): https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
+- you can also skip this section and directly download the wiki-topic-distribution in our experiment setting (k=25, alpha = 0.0001): https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
 
 ## Sentence sampling:
 - collect sample sentences for using two strategies (C and T types respectively)
 - file required: 
-  a txt file containing all the words you want to have vectors (In our case, the file is in here: )
+  a txt file containing all the words to have vectors
   wiki-topic-distribution: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
 
 - Run command `python3 WTV1.py`
