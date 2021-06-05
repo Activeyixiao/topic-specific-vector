@@ -24,11 +24,11 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 ## Sentence sampling:
 - collect sample sentences for using two strategies (C and T types respectively)
 - file required: 
-  all words collection: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
-  25_topic_model: https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
+  a txt file containing all the words you want to have vectors (In our case, the file is in here: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY)
+  LDA_topic_dictionary: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
 
-- Run command `python3 WTV1.py` (the output files from above step are required)
-- Run command `python3 WTV12.py`
+- Run command `python3 WTV1.py`
+- Run command `python3 WTV12.py` 
 
 - The output files are two documents, one containing words as foler with their selected topic-mention sentences inside, the other containing words as files with general sentences inside.
 
