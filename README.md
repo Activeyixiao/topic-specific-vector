@@ -17,7 +17,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 - run LDA on the output documents: `python3 LDA_model.py -k -alpha -wordids -tfidf -bow -workers -build_dir` (This command generate a json file maps each wiki-tilte to its topic distributions)
 - you can also skip this section and directly download the wiki-topic-distribution in our experiment setting (k=25, alpha = 0.0001): https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
 
-## sampling sentences for word vectors:
+## Sampling sentences for word vectors:
 - sampling sentences using two strategies (C and T types respectively)
 - file required: 
   1. a txt file containing all the words to have vectors
