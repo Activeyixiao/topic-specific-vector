@@ -20,9 +20,9 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 ## sampling sentences for word vectors:
 - sampling sentences using two strategies (C and T types respectively)
 - file required: 
-  a txt file containing all the words to have vectors
-  processed-wiki-corpus:https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS
-  wiki-topic-distribution: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
+  1. a txt file containing all the words to have vectors
+  2. processed-wiki-corpus:https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS
+  3. wiki-topic-distribution: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
 
 - Run command `python3 word_wiki_mention.py`
 - the above line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of that word's occurance
