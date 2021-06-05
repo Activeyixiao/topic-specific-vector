@@ -11,9 +11,8 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 - The link to download the corpus:https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS
 ## collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case)
 
-- the link to download these datasets: https://cf-my.sharepoint.com/:u:/r/personal/wangy306_cardiff_ac_uk/Documents/repo.zip?csf=1&web=1&e=aUQCpl
-- Run command: `python3 words_collection.py`
-- The outputfile is: "all_words.txt", this text file include all the word that we are going to find mentions in the wiki-corpus. You can also use words from your interested dataset instead. 
+- the link to download these words: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
+- You can also prepare a txt file containing all words from your interested dataset instead. 
 
 ## Apply LDA on wiki-dump:
 - In this step we apply LDA (Latent Dirichlet allocation) on wiki-dump and get k-topic mixed distributions.
@@ -24,7 +23,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 ## Sentence sampling:
 - collect sample sentences for using two strategies (C and T types respectively)
 - file required: 
-  a txt file containing all the words you want to have vectors (In our case, the file is in here: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY)
+  a txt file containing all the words you want to have vectors (In our case, the file is in here: )
   wiki-topic-distribution: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
 
 - Run command `python3 WTV1.py`
