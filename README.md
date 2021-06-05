@@ -9,7 +9,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 ## Download clean and pre-processed Wikipedia corpus
 
 - The link to download the corpus:https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS
-## collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain)
+## collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case)
 
 - the link to download these datasets: https://cf-my.sharepoint.com/:u:/r/personal/wangy306_cardiff_ac_uk/Documents/repo.zip?csf=1&web=1&e=aUQCpl
 - Run command: `python3 words_collection.py`
