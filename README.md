@@ -27,8 +27,7 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 - Run command `python3 word_wiki_mention.py`
   (this line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of that word's occurance)
 - Run command `python3 sampling_sentences.py` 
-
-- The output files are two documents, one containing words as foler with their selected topic-mention sentences inside, the other containing words as files with general sentences inside.
+  sentence sampling is completed, there are two output folder, one containing words as foler with their selected topic-mention sentences inside (strategy for T-type), the other containing words as files with general sentences inside (strategy for C-type).
 
 ## Get vectors from sampling sentences using popular language models (BERT-BASE,BERT-LARGE,ROBERTA-BASE, ROBERTA-LARGE)
 - Run command `python3 word_topic_vector.py`
