@@ -10,18 +10,18 @@ import logging
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("-dataset", help="dataset")
-    parser.add_argument("-vector_type", help="vector type", default="static")
-    parser.add_argument("-embed_path", help="embedding path", default="../data/embeddings")
+    parser.add_argument("-dataset", help=" path of dataset", choices=['MC', 'CSLB', 'SS','BD'])
+    parser.add_argument("-vector_type", help="vector type", choices=['topic', 'layers', 'single']) # 'layers': weighted-average of word vector from 12/24 layer of language model; 'single': word vectors in which word only have single vector
+    parser.add_argument("-embed_path", help="path of word vector embedding")
     parser.add_argument("-mask", help="whether to use masked vector", action="store_true", default=True)
-    parser.add_argument("-batch_size", help="batch size", default=4)
-    parser.add_argument("-in_features", help="dimension of input features", default=1024, type=int)
+    parser.add_argument("-batch_size", help="batch size", default=16)
+    parser.add_argument("-in_features", help="dimension of input features",choices=[768,1024,300],type=int)
     parser.add_argument("-learning_rate", help="learning rate", default=0.001, type=float)
     parser.add_argument("-weight_decay", help="weight decay", default=0.02, type=float)
     parser.add_argument("-seed", help="seed", default=2021)
     parser.add_argument("-gpu", help="whether to use gpu", default=False, action="store_true")
-    parser.add_argument("-num_epoch", help="number of epoch", default=100, type=int)
-    parser.add_argument("-vector_name", help="number of word vectors")
+    parser.add_argument("-num_epoch", help="number of epoches to train the model", default=100, type=int)
+    parser.add_argument("-vector_name", help="type of the word vector", choices=['bert-base', 'bert-large', 'roberta-base','roberta-large', 'SKIPGRAM','CBOW'])
     args = parser.parse_args()
 
     result_path = os.path.join(os.path.abspath(project_path), 'result_net', args.dataset)
