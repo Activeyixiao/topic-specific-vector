@@ -40,4 +40,5 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 - [Glove trained on Wikipedia](https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/ESwBA0GD3mRNklhdYVQro08BuBVhLiZRDWX5Lb7uFqialw?e=XDfNnw)
 
 ## Run evaluations on lexical feature classification
-- Run command 
+- Run command: `python3 nn_classifier/nnclassifier/run_network.py -dataset -vector_type -embed_path -mask -batch_size -infeatures learning_rate -weight_decay -seed -gpu -num_epoch vector_name`
+
