@@ -1,0 +1,49 @@
+a_tool	armour, axe, book, brush, bucket, buckle, cart, comb, crowbar, cupboard, helicopter, jet, lantern, laptop, oven, peg, pen, pistol, rake, rope, spoon, submarine, tack
+a_toy	bicycle, bucket, doll, skateboard, snowboard, submarine, toy, train, wand
+expensive	armour, banjo, bathtub, bicycle, building, cannon, chair, cow, cupboard, doll, elephant, gate, gown, helicopter, house, iguana, inn, jacket, jet, laptop, lobster, motorcycle, oven, pearl, pistol, sailboat, saxophone, sink, snowboard, sofa, submarine, toy, train, veil, vest
+fun	banjo, bicycle, book, cheese, doll, hawk, helicopter, laptop, magazine, motorcycle, pistol, pizza, rocker, sailboat, saxophone, skateboard, snowboard, sofa, toy, train, vest, wand
+hand_held	axe, banjo, book, brush, bucket, buckle, cabbage, cauliflower, cheese, comb, corn, crab, crowbar, cucumber, doll, iguana, lantern, laptop, lime, lobster, magazine, mandarin, peach, pearl, pen, pistol, pizza, plate, raisin, rake, rock, rope, sandwich, sardine, saxophone, seaweed, shell, shrimp, spoon, tack, telephone, tomato, toy, vest, wand
+heavy	armour, axe, bathtub, bicycle, building, cannon, cart, chair, cow, cupboard, deer, elephant, elk, gate, helicopter, house, hut, inn, jet, motorcycle, ostrich, oven, ox, pistol, pizza, pyramid, rock, sailboat, saxophone, sink, sofa, stone, submarine, train, whale, zebra
+large	armour, bathtub, bicycle, building, cabbage, cannon, cart, chair, cow, cucumber, cupboard, deer, eagle, elephant, elk, gate, gown, hawk, helicopter, house, hut, iguana, inn, jacket, jet, motorcycle, ostrich, oven, ox, pillow, pizza, pyramid, sailboat, saxophone, seaweed, sink, snowboard, sofa, stone, submarine, train, whale, zebra
+light_weight	backpack, banjo, book, brush, bucket, buckle, cabbage, cauliflower, chair, cheese, chicken, comb, corn, crowbar, cucumber, cushion, doll, dress, eagle, gown, housefly, iguana, jacket, lantern, laptop, lime, lobster, magazine, mandarin, octopus, peach, pearl, peg, pen, pepper, pie, pillow, pistol, pizza, plate, platypus, raisin, rake, rock, rocker, rope, sandwich, sardine, saxophone, seaweed, shell, shrimp, skateboard, snowboard, spoon, stone, tack, telephone, tomato, toy, veil, vest, wand, worm
+loud	armour, axe, banjo, bathtub, cannon, chicken, cow, deer, eagle, elephant, hawk, helicopter, iguana, jet, motorcycle, ostrich, ox, pistol, saxophone, submarine, telephone, toy, train
+man_made	armour, axe, backpack, banjo, bathtub, bicycle, book, brush, bucket, buckle, building, cannon, cart, chair, cheese, comb, crowbar, cupboard, cushion, doll, dress, gate, gown, helicopter, house, hut, inn, jacket, jet, lantern, laptop, magazine, motorcycle, oven, peg, pen, pie, pillow, pistol, pizza, plate, pyramid, rake, rocker, rope, sailboat, sandwich, saxophone, sink, skateboard, snowboard, sofa, spoon, submarine, tack, telephone, toy, train, veil, vest, wand
+produces_noise	armour, axe, banjo, bathtub, beaver, bicycle, brush, cannon, cart, chicken, cow, crab, cupboard, deer, eagle, elephant, elk, gate, hawk, helicopter, housefly, iguana, jet, laptop, motorcycle, ostrich, ox, pistol, platypus, saxophone, sink, skateboard, submarine, telephone, toy, train, whale, zebra
+shiny	armour, axe, bathtub, bicycle, buckle, building, cannon, cart, comb, crab, crowbar, cucumber, dress, gown, helicopter, housefly, jet, lantern, laptop, lime, magazine, mandarin, motorcycle, oven, pearl, pepper, pistol, plate, rock, saxophone, shell, shrimp, sink, spoon, submarine, tack, telephone, tomato, toy, train, wand, worm
+squishy	cheese, chicken, cushion, dress, housefly, iguana, lime, mandarin, octopus, peach, pepper, pie, pillow, pizza, raisin, sandwich, sardine, seaweed, shrimp, sofa, tomato, toy, worm
+used_by_children	backpack, bathtub, bicycle, book, chair, cheese, comb, cushion, doll, dress, house, hut, jacket, laptop, magazine, mandarin, peach, pillow, plate, raisin, rocker, rope, sandwich, shell, sink, skateboard, snowboard, sofa, spoon, tack, telephone, tomato, toy, wand
+used_for_music	banjo, laptop, saxophone, telephone
+electrical	building, gate, helicopter, house, hut, inn, jet, laptop, motorcycle, oven, submarine, train
+fast	beaver, bicycle, chicken, deer, eagle, elk, flamingo, hawk, helicopter, housefly, iguana, jet, laptop, motorcycle, octopus, ostrich, ox, pistol, pizza, platypus, sailboat, sardine, shrimp, skateboard, snowboard, submarine, train, whale, zebra
+flies	chicken, eagle, flamingo, hawk, helicopter, housefly, jet
+fragile	banjo, cauliflower, cheese, chicken, cucumber, gown, housefly, lantern, laptop, magazine, peach, pearl, pepper, pillow, plate, raisin, sandwich, saxophone, shell, shrimp, telephone, tomato, veil, worm
+hard	armour, axe, banjo, bathtub, bicycle, book, brush, bucket, buckle, building, cabbage, cannon, cart, cauliflower, chair, comb, corn, crab, crowbar, cucumber, cupboard, doll, gate, helicopter, house, hut, inn, jet, lantern, laptop, lobster, motorcycle, oven, pearl, peg, pen, pistol, plate, pyramid, rake, rock, rocker, sailboat, saxophone, shell, sink, skateboard, snowboard, spoon, stone, submarine, tack, telephone, toy, train, wand
+hot	armour, bathtub, buckle, building, cannon, chicken, elephant, house, jacket, jet, lantern, laptop, lobster, motorcycle, oven, pie, pizza, plate, rock, sandwich, sink, submarine, telephone, train
+requires_gasoline	helicopter, jet, lantern, motorcycle, sailboat, submarine
+smooth	armour, axe, banjo, bathtub, bicycle, book, bucket, buckle, building, cabbage, cannon, chair, cheese, comb, crab, crowbar, cucumber, cupboard, deer, dress, elk, gate, gown, iguana, jacket, jet, lantern, laptop, lime, lobster, magazine, mandarin, motorcycle, octopus, oven, peach, pearl, peg, pen, pepper, pillow, pistol, pizza, plate, pyramid, rake, rock, rocker, sailboat, sardine, saxophone, seaweed, shell, shrimp, sink, skateboard, snowboard, spoon, stone, submarine, tack, telephone, tomato, toy, train, veil, vest, wand, whale, worm, zebra
+tall	building, cannon, cow, deer, elephant, elk, flamingo, gate, helicopter, house, hut, jet, ostrich, pyramid, rake, rocker, rope, sailboat, submarine, train, whale, zebra
+used_for_holding_things	backpack, bathtub, bucket, buckle, building, cart, cupboard, house, hut, jet, plate, rope, sailboat, shell, sink, spoon, submarine, tack, train
+used_for_transportation	bicycle, cart, helicopter, jet, motorcycle, sailboat, skateboard, snowboard, submarine, train
+words_on_it	bicycle, book, building, comb, dress, helicopter, inn, jacket, jet, lantern, laptop, magazine, motorcycle, oven, pen, pistol, pyramid, sailboat, saxophone, skateboard, snowboard, submarine, telephone, train
+an_animal	beaver, chicken, cow, crab, deer, eagle, elephant, elk, flamingo, hawk, housefly, iguana, lobster, octopus, ostrich, ox, platypus, shrimp, whale, worm, zebra
+cold	armour, bathtub, beaver, building, cabbage, cauliflower, cheese, chicken, crab, cucumber, deer, eagle, elephant, hawk, house, hut, iguana, inn, oven, ox, pie, pizza, rake, sardine, saxophone, seaweed, snowboard, spoon, stone
+dangerous	axe, cannon, crab, eagle, elephant, helicopter, iguana, motorcycle, octopus, oven, ox, pistol, rake, skateboard, snowboard, submarine, tack, train, whale
+edible	cabbage, cauliflower, cheese, chicken, corn, cow, crab, cucumber, deer, elk, hawk, lime, lobster, mandarin, octopus, ox, peach, pepper, pie, pizza, raisin, sandwich, sardine, seaweed, shrimp, tomato, whale
+lives_in_water	beaver, crab, flamingo, iguana, lobster, octopus, pearl, platypus, sailboat, sardine, seaweed, shell, shrimp, submarine, whale
+sharp	axe, crab, pen, rake, shell, tack
+slimy	cheese, crab, housefly, lobster, octopus, peach, pizza, sardine, seaweed, shrimp, tomato, whale, worm
+smelly	beaver, cauliflower, cheese, chicken, cow, elephant, elk, housefly, iguana, lobster, motorcycle, octopus, ostrich, ox, pepper, pizza, platypus, sardine, seaweed, shrimp, sink, train, whale, worm, zebra
+swims	beaver, crab, deer, iguana, lobster, octopus, ox, platypus, sailboat, sardine, shrimp, submarine, whale
+used_for_eating	cabbage, cauliflower, cheese, chicken, corn, cow, cucumber, deer, elk, lime, lobster, mandarin, octopus, peach, pepper, pie, pizza, plate, raisin, sandwich, sardine, seaweed, shrimp, spoon, tomato
+wet	bathtub, beaver, bucket, cabbage, cart, comb, crab, cucumber, elephant, elk, flamingo, house, hut, iguana, jacket, jet, lime, lobster, octopus, peach, pearl, pepper, platypus, rock, rope, sailboat, sardine, seaweed, shell, shrimp, sink, snowboard, stone, submarine, toy, train, whale, worm, zebra
+has_shelves	building, cupboard, house, hut, inn, submarine
+eaten_in_summer	cabbage, cauliflower, cheese, chicken, corn, cow, crab, cucumber, deer, elk, lime, lobster, mandarin, ox, peach, pepper, pie, pizza, sandwich, seaweed, shrimp, tomato
+has_peel	cheese, corn, lime, lobster, mandarin, peach, shrimp, tomato
+used_for_cleaning	bathtub, brush, sink
+used_for_cooking	cheese, lobster, oven, pepper, raisin, sink, spoon, tomato
+decorative	armour, book, building, chair, corn, cupboard, cushion, doll, dress, elk, flamingo, gate, gown, house, jacket, lantern, pearl, pillow, plate, rock, sailboat, shell, snowboard, stone, veil, vest, wand
+worn_for_warmth	armour, gown, jacket, veil, vest
+pairs	chair, cupboard, deer, doll, elephant, ox, pearl, pizza, plate, spoon, tack, vest
+found_on_walls	book, cupboard, deer, housefly, lantern, tack, telephone
+used_for_killing	cannon, pistol, rock, submarine
+unhealthy	cheese, housefly, pizza, shrimp

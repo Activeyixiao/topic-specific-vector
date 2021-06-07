@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 preprocessing.py -dataset /home/yixiao/Desktop/repo/evaluation_data/McRae_new -threshold 10 -skipgram /home/yixiao/Desktop/repo/word_embedding/baseline/Skip_gram.json -cbow /home/yixiao/Desktop/repo/word_embedding/baseline/CBOW.json -word_topic_mask /home/yixiao/Desktop/repo/nn_classifier/data/embeddings/topic_bert_mask_large.json -general_mask /home/yixiao/Desktop/repo/word_embedding/general_vectors/masked/mask_bert_large.json -build_dir /home/yixiao/Desktop/repo/nn_classifier/data/MC

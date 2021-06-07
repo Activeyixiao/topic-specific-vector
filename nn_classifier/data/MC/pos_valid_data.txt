@@ -1,0 +1,49 @@
+a_tool	bomb, barrel, anchor, crossbow, umbrella, clamp, projector, sack, screwdriver, tongs, desk, buggy, ladle, mirror, key, fridge, drill, envelope, sandpaper, typewriter, toothbrush, freezer, missile, remote, refrigerator, wheelbarrow, vase, wheel, skillet, shovel, taxi
+a_toy	kite, racquet, frisbee, bike, drum, crown, whistle
+expensive	rocket, microscope, bazooka, ship, ambulance, skirt, shield, stereo, bomb, robe, fridge, bullet, freezer, clam, eel, donkey, tractor, bagpipe, medal, drum, cake, boat, barrel, typewriter, sword, canoe, bungalow, cloak, cellar, skyscraper, accordion, faucet, cathedral, bureau, knife, cigarette, racquet
+fun	clarinet, ball, seal, banner, sleigh, bike, violin, coin, cake, ship, salamander, lemon, drum, tricycle, unicycle, necklace, horse, stereo, basement, tv, frisbee, sword, balloon, goldfish
+hand_held	drill, skillet, cherry, jar, violin, chisel, balloon, tomahawk, chain, gun, bread, donut, stick, shotgun, marble, cantaloupe, guitar, grapefruit, biscuit, colander, accordion, grape, machete, cockroach, apple, fork, sack, trombone, microscope, basket, bazooka, brick, bagpipe, cat, pan, dog, thimble, avocado, handbag, cup, bayonet, strainer
+heavy	barrel, wall, buffalo, bench, honeydew, shed, caribou, alligator, door, sleigh, tree, cabinet, carpet, revolver, skillet, wagon, trolley, trombone, anchor, microwave, missile, limousine, calf, bed, bagpipe, giraffe, sword, accordion, bull, scooter, dresser, suitcase, dog, fridge, shack, bungalow, cheetah
+large	bridge, drum, bus, hook, sword, honeydew, leopard, barn, van, bedroom, dresser, limousine, canoe, spear, pig, accordion, fridge, surfboard, harpsichord, alligator, sack, bungalow, skillet, bed, broom, cello, bagpipe, panther, parka, escalator, eel, camel, tuba, anchor, freezer, crown, bear, dog, pony, tent
+light_weight	hatchet, swimsuit, frog, baton, strawberry, certificate, bagpipe, eel, kettle, bread, rifle, cantaloupe, coconut, tray, necklace, shirt, plum, hornet, guitar, beehive, grasshopper, microscope, remote, accordion, mug, lemon, vine, caterpillar, pigeon, fork, sled, surfboard, sweater, bowl, gopher, peacock, cigarette, cork, camisole, bird, spinach, spatula, wasp, tv, bouquet, apron, celery, cranberry, bra, otter, rattle, crow, doorknob, scarf, toaster, clarinet, mixer, bottle, menu, eggplant, balloon
+loud	trumpet, ambulance, harp, bazooka, sledgehammer, blender, eel, coyote, camel, panther, harpsichord, stereo, sheep, seal, taxi, missile, keyboard, drum, beehive, flute, tv, drain, frog, toad, bagpipe, crow
+man_made	elevator, sword, barrel, fridge, tray, microwave, shed, bagpipe, tuba, scarf, machete, chain, tricycle, kite, grenade, trolley, bullet, bomb, basket, typewriter, cork, tractor, accordion, ladle, brick, pan, sledgehammer, skirt, tie, cake, biscuit, crayon, closet, catapult, razor, bureau, bracelet, bazooka, chisel, stereo, cello, helmet, bike, anchor, bungalow, napkin, key, tomahawk, sweater, toaster, corkscrew, menu, canoe, sleigh, bench, jar, balloon, limousine, missile, scooter
+produces_noise	grasshopper, revolver, gorilla, beetle, clarinet, stereo, dog, door, yacht, camel, gopher, keyboard, microwave, harp, ship, faucet, peacock, bomb, fox, accordion, goose, cello, rifle, alligator, tree, clock, shotgun, boat, cape, rooster, bear, cheetah, person, elevator, trumpet, bagpipe, harmonica, python, blender, piano
+shiny	goldfish, thimble, colander, mug, wagon, corkscrew, balloon, trumpet, coin, knife, cape, fridge, spear, taxi, penguin, chisel, kite, horse, bottle, drain, accordion, hook, pear, dishwasher, alligator, harp, strainer, tongs, plum, bayonet, boat, car, ashtray, clamp, sleigh, fork, trout, anchor, limousine, escalator, blender
+squishy	eel, yam, pear, mouse, walrus, tuna, grasshopper, squid, owl, carpet, cork, parka, dandelion, person, bagpipe, snail, nectarine
+used_by_children	limousine, ball, escalator, rattle, thermometer, bench, paintbrush, ruler, tent, spinach, coat, banana, dandelion, carpet, whistle, bowl, desk, violin, raspberry, shack, remote, toaster, refrigerator, radio, piano, pumpkin, microwave, clock
+used_for_music	church, harmonica, radio, guitar, stick, harp
+electrical	church, drill, chandelier, radio, cathedral, piano, van, bus, ship, stereo, bedroom, skyscraper, mixer
+fast	sled, dove, yacht, ambulance, coyote, bomb, toilet, duck, person, salamander, seagull, bird, unicycle, camel, whip, squirrel, scooter, falcon, hare, peacock, python, raccoon, mixer, trolley, tuna, blender, microwave, fox
+flies	kite, owl, goose, bird, falcon, duck, woodpecker
+fragile	orange, flute, cup, dandelion, parsley, cigarette, keyboard, bouquet, cake, projector, rice, balloon, dish, honeydew, piano, squid, barrel, wasp, thermometer, violin, shawl, guitar
+hard	colander, candle, racquet, coin, zucchini, sled, brick, lamp, thermometer, garage, truck, elevator, wheelbarrow, shield, airplane, spade, barrel, refrigerator, beehive, bracelet, bomb, crayon, marble, turnip, flute, crown, walnut, jar, table, cello, pan, faucet, slingshot, baton, mirror, shotgun, microwave, rattle, stick, radish, bullet, apple, dishwasher, box, kettle, pumpkin, crossbow, fork, ambulance, tongs, pear, spatula, bench
+hot	biscuit, skillet, rocket, ladle, person, taxi, ashtray, drill, cigar, yam, missile, bull, zucchini, stick, gopher, dishwasher, gun, python, truck
+requires_gasoline	bus, yacht, car, boat, missile
+smooth	coyote, biscuit, harpoon, cage, coat, grapefruit, keyboard, yacht, coin, cranberry, rattlesnake, tent, flute, jar, couch, skillet, bureau, cigar, umbrella, van, wheel, vase, shawl, mat, avocado, mixer, bottle, drill, remote, sleigh, tuba, baton, stereo, typewriter, garlic, emerald, lamp, cougar, boat, olive, alligator, hose, raft, trolley, chisel, bungalow, piano, ashtray, mirror, ambulance, barrel, pencil, cape, giraffe, hook, trombone, harpsichord, doorknob, corkscrew, banner, candle, grater, whip, tongs, fork, woodpecker, pin, pigeon, anchor, fawn, gun, spade, pumpkin, bullet
+tall	bridge, vine, refrigerator, harp, subway, tractor, barn, dresser, chapel, wall, wagon, cabin, shack, bagpipe, escalator, donkey, fridge, jeep, umbrella, chain, yacht
+used_for_holding_things	handbag, ashtray, elevator, barn, tripod, truck, dishwasher, beehive, bowl, clamp, freezer, shack, stove, cage, microwave, skyscraper, pin, chapel, table, bag, wagon, canoe, person
+used_for_transportation	horse, pony, car, elevator, sled, wheel, escalator, truck, rocket, canoe
+words_on_it	wall, apartment, mat, bag, surfboard, boat, football, coat, bus, razor, menu, taxi, stereo, sleigh, thermometer, projector, mug, envelope, barrel, guitar, typewriter, drum, handbag, yacht, apron, coin
+an_animal	hyena, bear, gorilla, bird, toad, trout, goose, butterfly, caterpillar, fawn, hare, raccoon, sheep, crow, otter, salamander, person, eel, snail, beetle, walrus, dog, peacock
+cold	camel, apartment, pig, barn, rooster, bike, turnip, car, bottle, radish, penguin, frog, cockroach, subway, truck, grapefruit, fawn, seal, bayonet, tree, dog, skunk, asparagus, donkey
+dangerous	hammer, sword, slingshot, sledgehammer, bull, flea, walrus, catapult, bayonet, person, rifle, missile, squid, bazooka, cougar, tractor, whip, harpoon, leopard, yacht, gorilla, crocodile
+edible	broccoli, turnip, pig, hare, rice, salmon, avocado, frog, coyote, yam, walnut, camel, pineapple, asparagus, goat, eggplant, goose, lemon, trout, clam
+lives_in_water	rice, seal, goose, clam, frog, eel, trout, canoe
+sharp	drill, machete, spear, corkscrew, fork, eel, hoe, hornet, chisel
+slimy	pickle, mushroom, crocodile, dolphin, boat, frog, salmon, grapefruit, drain
+smelly	cigarette, barn, gorilla, basement, seagull, bouquet, toad, clam, calf, parsley, rat, mushroom, dolphin, rooster, porcupine, pickle, sheep, salmon, bison, toothbrush, fawn, squid, barrel, frog
+swims	eel, goose, dolphin, raccoon, crocodile, porcupine, walrus, cockroach, ship, squid, caribou, skunk, pig
+used_for_eating	bottle, salmon, prune, microwave, squid, strawberry, avocado, goat, cup, yam, walnut, calf, rabbit, asparagus, grapefruit, fridge, knife, nectarine, trout, cranberry
+wet	trolley, apron, raspberry, rattle, vase, blueberry, umbrella, brick, bear, swimsuit, strainer, trout, colander, giraffe, celery, paintbrush, stick, alligator, hook, person, dog, rabbit, crocodile, walrus, tiger, mushroom, salmon, pig, scooter, shack, dishwasher, potato, snail, harpoon
+has_shelves	desk, freezer, chapel, bedroom, cabinet, cabin, yacht
+eaten_in_summer	walnut, cantaloupe, duck, nectarine, parsley, grape, garlic, pineapple, cherry, zucchini, tangerine, buffalo, pear, orange, trout
+has_peel	pear, plum, lemon, carrot, grapefruit, grape, zucchini
+used_for_cleaning	napkin, broom, hose
+used_for_cooking	faucet, olive, toaster, clock, garlic, fork, knife, lemon, cherry
+decorative	coin, skyscraper, scarf, robe, bookcase, chapel, tree, bracelet, banner, machete, parka, hook, shield, barrel, candle, table, urn, couch, fridge, vase, clock, car
+worn_for_warmth	cloak, tent, coat, cape, sweater
+pairs	horse, marble, cup, bullet, coyote, couch, tongs, bowl
+found_on_walls	medal, moth, hook, cabinet, door, cockroach, wall, broom
+used_for_killing	missile, revolver, harpoon, catapult, grenade, dagger, whip
+unhealthy	caterpillar, pig, walrus, cake

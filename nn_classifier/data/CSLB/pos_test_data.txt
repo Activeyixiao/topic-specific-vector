@@ -1,0 +1,54 @@
+is_noisy_loud	gong, monkey, cymbal, dishwasher, radio, typewriter, drill, trombone, motorcycle, cricket, canary, saxophone
+made_of_metal	pistol, bowl, bookcase, tractor, projector, camera, accordion, colander, ship, scythe, oven, badge, grater, tricycle, tambourine, screw, dagger, mirror, razor, comb, glider, trombone, rocket, strainer, lamp, watch, spear, hoe, harmonica, chair, harpoon, bath, barrel, peeler, scalpel, limousine, mop, gun, bucket, armour, wheelbarrow, bomb, lantern, spoon, toilet, gong, ambulance, thimble, pin, bayonet, deckchair, grenade, wheelchair, cannon, trolley, cupboard, drill, crowbar
+made_of_wood	cart, deckchair, spatula, arrow, rifle, bed, tongs, violin, wheel, surfboard, skateboard, banjo, mop, boomerang, window, clock, shovel, coffin, gate, plough, scythe, machete, crossbow, tray, barrel, stool, ladder, cradle, ship, drum, swing, axe, castle
+does_carry_transport	ferry, limousine, car, boat, camel, bus, train, barge, trolley, ant
+does_fly	eagle, woodpecker, rocket, kingfisher, glider, seagull, budgie, dove, ladybird, raven, flamingo, dragonfly, hornet, heron
+has_wings	emu, goose, duck, parakeet, dove, nightingale, woodpecker, cockerel, penguin, raven, butterfly, pigeon, moth, sparrow, hummingbird
+is_big_large	crocodile, armchair, hornet, barge, squid, bell, trombone, cupboard, camel, panther, yacht, ship, encyclopaedia, shark, pyramid, oven, sycamore, sofa, bath, tuba, glider, tarantula, bag, goose, watermelon, elm, rhino, ferry, fridge, octopus
+does_eat	horse, toad, squid, spider, canary, giraffe, woodpecker, chicken, bear, owl, robin, monkey, tarantula, beetle, eagle, walrus, wren, hummingbird, llama, zebra, hawk, elephant, hedgehog, moose, budgie, cat
+does_swim	pelican, octopus, flounder, frog, crocodile, hippo, seahorse, mackerel, goose, minnow, cod
+has_a_tail	monkey, lizard, kite, raccoon, wolf, panther, chipmunk, rattlesnake, raven, scorpion, calf, giraffe, deer, leopard, trout, rat, iguana, hyena, fox, canary, cockerel, goldfish
+has_eyes	goldfish, housefly, dragonfly, eagle, mouse, tortoise, flounder, sparrow, lizard, dove, chipmunk, pony
+has_legs	pelican, tiger, millipede, armchair, seagull, butterfly, wetsuit, donkey, elephant, spider, raccoon, bee, centipede, wolf, raven, ostrich, tortoise, horse, sparrow, pony, magpie, crocodile, fox, bench, rhino, frog, monkey, goose, wasp, squid, bed, deckchair, rabbit
+is_an_animal	whale, octopus, bear, millipede, buzzard, wolf, flamingo, tortoise, robin, bee, gerbil, woodpecker, raccoon, shark, elephant, centipede, horse, ox, pelican, magpie, pony, crocodile, buffalo, goose, oyster, kangaroo, giraffe, turtle, skunk, beaver, deer, jellyfish
+is_dangerous	grenade, hippo, crowbar, razor, crocodile, poison, valium, cannon, scissors, scythe, bee, scorpion, pistol, tiger, lion, knife
+is_green	cucumber, fern, cricket, melon, celery, sycamore, willow, broccoli, pine, tomato, aubergine, hose, lime, jelly, mango, grape, cabbage
+is_fast	leopard, motorcycle, helicopter, cheetah, gerbil, fox, squirrel, car, tiger, bullet
+is_white	fridge, yoghurt, penguin, magpie, wine, veil, ibuprofen, skunk, onion, chocolate, dice, owl, envelope, pillow, bath, seagull, milk, van, radish, coconut
+is_found_in_seas	herring, seagull, turtle, crayfish, mackerel, jellyfish, pelican, salmon, crab, walrus, cod
+is_heavy	club, elephant, cart, catalogue, lorry, tuba, chain, tank, gong, cannon, axe, rock
+is_black	hair, lantern, gorilla, raven, flea, taxi, wasp, coffee, slug, tyre, calf, newspaper, prune, pelican, raisin, millipede, cow
+is_red	ladybird, jelly, currant, fox, cabbage, hair, radish, herring, grape, jam, bus
+is_small	drum, cherry, moped, bullet, coin, ant, bee, cork, aspirin, wasp, currant, locust, scorpion, seahorse, pin, snail, satsuma, kayak, chestnut, herring, woodpecker, scallop, thimble, bag, pansy, kingfisher, needle, harmonica, budgie, bean, partridge, pistol, cup, spider, knickers, lamb, radish, chipmunk, flea, lizard, rat, sardine, speedboat, ear, key, hatchet
+does_grow	lemon, daisy, poppy, grape, turnip, nectarine, lettuce, orchid, sunflower, pineapple, aubergine, fern, cauliflower, lily, peach, hair, elm, avocado, broccoli, tomato, potato, oak
+has_a_stalk_stem	cauliflower, orchid, strawberry, broccoli, daffodil, celery, geranium, lily, aubergine, sunflower
+has_skin_peel	melon, orange, grape, banana, garlic, cucumber, pumpkin, avocado, satsuma, aubergine
+is_a_fruit	orange, pineapple, lime, blueberry, grapefruit, grape, tangerine, banana, sultana
+is_circular_round	drum, cherry, pie, cymbal, wheel, lemon, eye, nectarine, tomato, peach, badge, coconut, bracelet, football, olive, doorknob, clock, ball, bean, umbrella, plate, mango
+is_eaten_edible	butter, garlic, artichoke, cucumber, cheese, bean, crayfish, dandelion, squid, ham, rabbit, lobster, coconut, grape, corn, aubergine, mayonnaise, strawberry, gherkin, watermelon, pumpkin, salmon, raisin, turnip, peanut, prune, tangerine, pig, plum, sugar, olive, prawn, bacon, turkey
+is_sweet	currant, cider, orange, grape, ketchup, lemonade, cake, sugar, pie, melon, jam, mango
+is_tasty	jam, raspberry, mushroom, yoghurt, bean, cucumber, satsuma, butter, artichoke, lobster, potato, pie, strawberry, asparagus, chestnut, tangerine, wine, jelly, whisky, peach, grape, chocolate, grapefruit, milk, aubergine
+is_yellow	nectarine, grapefruit, pineapple, cheese, cheetah, cider, courgette, giraffe, champagne, budgie, sunflower, dandelion
+is_used_in_cooking	turnip, leek, oven, scallop, carrot, cauliflower, courgette, garlic, mussel, rice, stove, cabbage, bean
+is_worn	shirt, lipstick, suit, cape, cloak, coat, goggles, knickers, cap, bikini, veil, jacket
+made_of_fabric_cloth_material	cloak, wallet, umbrella, sock, doll, tent, belt, buggy, swimsuit, skirt, cushion, cap, suit, gown, scarf
+made_of_plastic	trowel, ball, sledge, badge, boomerang, cupboard, bath, razor, whip, scissors, shovel, ruler, fridge, tripod, radio, microwave, knife, cup, wand, button, clarinet, colander, football, yoyo, projector, doorknob, whisk, sink, stool, wallet, plate, tongs, rattle, moped, spatula, desk, umbrella, table
+is_long	bench, scythe, recorder, ladder, skirt, spatula, aubergine, flute, coat, whip, wand, carrot, rifle, asparagus, gown, eel, harpoon, lorry, sword, clarinet, worm, gherkin, barge, broom
+is_useful	glue, wheelchair, satchel, needle, shovel, fork, microwave, whisk, pin, car, desk, projector, drill, wheelbarrow, belt, penknife, peg, screw, spade, chainsaw, toaster
+has_feathers	pillow, nightingale, seagull, eagle, emu, falcon, goose, kingfisher, duck, chicken, turkey, hummingbird
+is_sharp	peeler, pin, hook, chisel, hatchet, harpoon, scythe, chainsaw, spear, bayonet
+is_thin	newspaper, nail, courgette, crowbar, celery, hair, ruler, hose, finger, leek, barge
+has_leaves	turnip, leek, spinach, rose, daisy, dandelion, fern, geranium, tulip, sunflower, marigold, daffodil, carnation
+is_food	corn, olive, shrimp, bread, doughnut, crab, lobster, mushroom, biscuit, soup
+does_smell_is_smelly	lily, orchid, garlic, cheese, eucalyptus, daffodil, seaweed, carnation, skunk, bin
+is_a_plant	lily, orchid, fern, celery, elm, dandelion, tobacco, carnation, tea
+has_a_handle_handles	satchel, whip, wheelchair, machete, ladle, corkscrew, tray, rifle, screwdriver, bell, scalpel, jug, gun, lantern, fork, grater, broom, chisel, kettle, penknife, razor
+is_a_tool	penknife, saw, hoe, corkscrew, harpoon, hammer, spatula, clamp, syringe, chisel
+is_colourful	cushion, lipstick, sunflower, butterfly, frisbee, deckchair, jelly, kite, budgie, tulip, bouquet
+has_fur_hair	tiger, squirrel, fox, dog, calf, cheetah, rabbit, monkey, cow, pony, chipmunk, horse, hamster, raccoon
+is_a_mammal	gerbil, hamster, elephant, panther, dolphin, otter, wolf, cow, rabbit, rat, camel, raccoon, mouse, whale, lamb, hyena
+is_brown	fox, worm, platypus, moth, whisky, tobacco, kangaroo, sugar, ox, centipede, cork, peanut, envelope, porcupine, brandy, sparrow, nut, toad, robin, chipmunk
+has_four_legs	fox, wolf, stool, lion, hamster, table, chair, dog, llama, sheep, giraffe, donkey, iguana, hyena
+is_pretty_attractive_beautiful	marble, orchid, harp, carnation, geranium, dress, sunflower, butterfly, swan, buttercup
+has_a_beak	owl, nightingale, emu, falcon, cockerel, heron, pigeon, kingfisher, goose, magpie, chicken
+is_a_bird	owl, nightingale, emu, falcon, cockerel, heron, pigeon, kingfisher, goose, magpie, chicken

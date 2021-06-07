@@ -1,0 +1,54 @@
+is_noisy_loud	trumpet, tuba, cockerel, blender, grasshopper, train, peacock
+made_of_metal	tongs, fridge, kettle, window, coin, barge, scissors, chain, coffin, bullet, hammer, buggy, fence, corkscrew, plough, bell, microscope, bridge, ruler, doorknob, tugboat, pram, sword, knife, syringe, clarinet, hatchet, axe, wheel, shield, arrow, carriage, bench, dice
+made_of_wood	chair, bridge, raft, broom, kite, rattle, elm, peg, chisel, bayonet, bucket, harpsichord, puppet, hoe, oak, hammer, shield, brush, wheelbarrow
+does_carry_transport	donkey, wheelbarrow, pram, ship, truck, dinghy
+does_fly	frisbee, partridge, bee, swan, boomerang, hawk, magpie, pelican
+has_wings	chicken, kingfisher, buzzard, grasshopper, eagle, flamingo, seagull, falcon, glider
+is_big_large	lorry, ostrich, aeroplane, hippo, whale, bookcase, tugboat, barrel, lily, llama, lion, cape, melon, cello, tiger, bus, oak, jug
+does_eat	lion, cheetah, locust, rhino, termite, fox, wolf, platypus, buzzard, otter, gerbil, worm, sparrow, ant, kingfisher
+does_swim	alligator, sardine, beaver, shark, dolphin, eel, salmon
+has_a_tail	flounder, whale, zebra, buffalo, tortoise, lobster, alligator, skunk, beaver, magpie, salmon, cheetah, prawn
+has_eyes	squid, tarantula, doll, cat, hamster, snail, magpie
+has_legs	toad, wren, cat, kangaroo, lobster, chair, zebra, mosquito, dog, shrimp, mouse, moth, locust, hamster, moose, iguana, tripod, prawn, doll
+is_an_animal	hedgehog, cow, hippo, otter, monkey, gorilla, mussel, panther, donkey, butterfly, rabbit, pig, grasshopper, chicken, ostrich, kingfisher, llama, canary, slug
+is_dangerous	bullet, rhino, hornet, sword, club, bayonet, shotgun, axe, tank
+is_green	watermelon, bean, rhubarb, toad, eye, lettuce, asparagus, peacock, fir, parsley
+is_fast	van, bicycle, zebra, kangaroo, kingfisher, mouse
+is_white	dishwasher, ambulance, lamb, goose, zebra, heron, lily, codeine, rose, toilet, pelican, bread
+is_found_in_seas	shark, clam, shrimp, oyster, prawn, seahorse
+is_heavy	throne, truck, brick, ashtray, coffin, sword, hatchet
+is_black	tights, leopard, raccoon, poppy, bee, olive, sheep, piano, cloak, bear
+is_red	ant, poppy, apple, raspberry, carnation, crab, onion
+is_small	sparrow, flannel, tugboat, rice, raccoon, starling, badge, centipede, umbrella, lipstick, squirrel, hedgehog, dice, raisin, minnow, grasshopper, ball, stone, scalpel, blueberry, wren, garlic, cage, buttercup, camera, magpie, screw
+does_grow	garlic, raspberry, daffodil, moss, plum, pansy, apple, melon, mushroom, pumpkin, pine, bean, rice
+has_a_stalk_stem	rhubarb, buttercup, artichoke, hyacinth, tomato, pansy
+has_skin_peel	mango, watermelon, pear, plum, tangerine, lime
+is_a_fruit	satsuma, plum, raisin, watermelon, peach, olive
+is_circular_round	cup, radish, cap, grenade, peanut, nut, apple, grapefruit, hook, potato, orange, banjo, sink
+is_eaten_edible	grapefruit, sheep, jelly, caterpillar, broccoli, seaweed, cherry, rice, biscuit, mackerel, apple, oyster, jam, asparagus, snail, parsley, bread, sultana, nectarine, potato
+is_sweet	apple, pineapple, apricot, tangerine, cherry, chocolate, raspberry
+is_tasty	bacon, broccoli, melon, watermelon, cabbage, onion, orange, tuna, banana, salmon, lemonade, spinach, avocado, prawn, rhubarb
+is_yellow	buttercup, locust, banana, bee, canary, lion, lemon
+is_used_in_cooking	artichoke, broccoli, toaster, knife, spatula, parsley, microwave, lime
+is_worn	bra, poppy, armour, badge, bracelet, perfume, necklace
+made_of_fabric_cloth_material	flannel, shirt, pram, sofa, badge, bag, robe, armchair, leotard
+made_of_plastic	toaster, clock, television, tray, camera, helmet, tricycle, broom, skateboard, dice, mop, doll, canoe, syringe, ladle, fence, kettle, raft, bin, screwdriver, tent, motorcycle
+is_long	spade, hose, surfboard, rattlesnake, necklace, robe, millipede, chain, pen, arrow, nail, cucumber, bayonet, shawl
+is_useful	kettle, arm, encyclopaedia, knickers, spanner, mirror, nail, bin, taxi, hammer, telephone, cart
+has_feathers	cushion, peacock, budgie, buzzard, dove, partridge, owl
+is_sharp	needle, trowel, razor, scalpel, sword, nail
+is_thin	arrow, recorder, asparagus, scarf, centipede, clarinet, rattlesnake
+has_leaves	poppy, tobacco, celery, cabbage, fir, orchid, moss
+is_food	sardine, butter, bacon, mayonnaise, spinach, oyster
+does_smell_is_smelly	hyacinth, tulip, parsley, pine, sock, goat
+is_a_plant	spinach, pansy, rhubarb, willow, marigold, lettuce
+has_a_handle_handles	scythe, axe, trolley, spatula, hatchet, knife, mug, shovel, gate, bucket, drill, chainsaw
+is_a_tool	trowel, chainsaw, typewriter, peeler, pen, scalpel
+is_colourful	pansy, bikini, peacock, jam, kingfisher, marble
+has_fur_hair	caterpillar, platypus, tarantula, llama, gerbil, buffalo, otter, rat
+is_a_mammal	chipmunk, platypus, hedgehog, tiger, dog, calf, sheep, buffalo, walrus
+is_brown	cow, bear, lion, hawk, wren, hedgehog, locust, cigar, seaweed, tea, pine, bread
+has_four_legs	goat, porcupine, calf, tortoise, cat, hippo, mouse, raccoon
+is_pretty_attractive_beautiful	lily, violin, peacock, rose, tiger, kingfisher
+has_a_beak	budgie, penguin, buzzard, platypus, dove, eagle, pelican
+is_a_bird	raven, dove, turkey, eagle, robin, buzzard
