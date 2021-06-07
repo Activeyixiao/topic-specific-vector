@@ -34,10 +34,13 @@ This repository will guide you step to step to obtain word-topic-vectors. Also, 
 
 # Download word Vectors
 
-- [Mask, unmask, and average of unmask layers for McRae dataset with BERT large](https://filesender.renater.fr/?s=download&token=b3375b5e-78e6-41e0-98cb-b530d4803711)
+- [all vectors generated using BERT-base]()
+- [all vectors generated using BERT-large]()
+- [all vectors generated using roBERTa-base]()
+- [all vectors generated using roBERTa-large]()
 - [Skip-gram trained on Wikipedia](https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/ERPqned64qRFv-ri5_jN0CIB5z2V7XlKD9I3qm93A80wAw?e=Uu3LvF)
 - [CBOW trained on Wikipedia](https://drive.google.com/file/d/171iSHR6GcL3k4IB2JsblHJuifoFarmFZ/view?usp=sharing)
-- [Glove trained on Wikipedia](https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/ESwBA0GD3mRNklhdYVQro08BuBVhLiZRDWX5Lb7uFqialw?e=XDfNnw)
+
 
 ## Run evaluations on lexical feature classification
 - Run command: `python3 nn_classifier/nnclassifier/run_network.py -dataset -vector_type -embed_path -mask -batch_size -infeatures learning_rate -weight_decay -seed -gpu -num_epoch vector_name`
