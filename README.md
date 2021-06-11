@@ -4,7 +4,7 @@ In this project, we propose a method for learning word representations that foll
 
 This repository will guide you step by step to obtain word-topic-vectors. Also, you could skip these steps and directly download all the word-vector as tested in our paper. 
 
-# building word-topic-vectors from scratch
+# Building word-topic-vectors from scratch
 
 ## collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case)
 
