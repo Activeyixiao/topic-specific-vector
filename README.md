@@ -34,12 +34,11 @@ This open source implementaton will guide you step by step to obtain these word-
 
 - you can also skip this section and directly download the [wiki-topic-distribution](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg) using our default setting (k=25, alpha = 0.0001): 
 
-### Sampling sentences for word vectors:
-- sampling sentences using two strategies (C and T types respectively)
+### Sampling sentences for getting word vectors:
 - file required: 
-  1. a txt file containing all the words to have vectors
-  2. processed-wiki-corpus:https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS
-  3. wiki-topic-distribution: (following our experiment setting, we choose k=25 as number of topics. This file can be downloaded from above section)
+  1. a txt file containing all the words
+  2. processed-wiki-corpus to sample sentence, you can download our pre-processed [wiki-file](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS)
+  3. wiki-topic-distribution json file
 
 - Run command `python3 word_wiki_mention.py`
   (this line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of that word's occurance)
