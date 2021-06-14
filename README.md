@@ -4,11 +4,11 @@
 
 Static word vectors remain important in applications where word meaning has to be modelled in the absence of context. 
 
-In our recent paper [Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection](), we propose a method for learning high-quality static word vector by taking advantage of contextualized language models (BERT,RoBERTa). Instread of representing a word as a single vector, we model each word as several vectors which derive its semantic properties from articles of different topics (economics, politics, education, and so on).
+In our recent paper [Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection](), we propose a method for learning high-quality static word vectors by taking advantage of contextualized language models (BERT,RoBERTa). Instead of representing a word as a single vector, we model each word as several vectors, which derive its semantic properties from articles on different topics (economics, politics, education, and so on).
 
-For example, our representation for word "banana" have several topics-specific vectors corresponding to the topics of food, biology, industury. This make our static word vector become context sensitive in some sense.    
+For example, our representation for word the word "banana" consists of several topics-specific vectors, corresponding to topics related to food, biology, industry. 
 
-This open source implementaton will guide you step by step to obtain these word-topic-vectors. You could also skip these steps and directly download all the word-vector experimented in our paper. 
+This document contains step-by-step instructions for obtaining these topic-specific word vectors. You could also skip these steps and directly download the topic-specific vectors that were used for the experiments in our paper.
 
 ## Building word-topic-vectors from scratch
 
@@ -19,38 +19,49 @@ This open source implementaton will guide you step by step to obtain these word-
 - Gensim
 - NLTK
 
-### Collect all the words from the evaluation dataset 
+### Step 1: Selecting a vocabulary
 
-- Download words (words from McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case): https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
-- You could also prepare your own txt file containing all words that you are interested.
+- The code requires a text file containing the vocabulary, i.e. the set of words for which vector representations need to be obtained. This vocabulary is encoded as a plain text file, with one word per line.
 
-### Applying LDA on wiki-dump:
+- The vocabulary corresponding to the experiments from our paper can be downloaded here: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
 
-- Download and pre-process the wiki-article following the instruction on this [tutorial](https://radimrehurek.com/gensim/wiki.html) until you finish the first part: "Preparing the corpus". By then, you will get required large files ("tfidf", "wordids", and "cow") for the following command line code.
+- In this case, the vocabulary consists of all words from the four evaluation dataset: the extended McRae feature norms, CSLB, WordNet supersenses and BabelNet domains
 
-- run LDA (Latent Dirichlet allocation) on the pre-precessed wiki files: `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` (The hyper-parameter "k" is number of topics, you can try different value on this; "alpha" is the alpha value for LDA, you can fine-tunning this value to get desired topic clusters; workers is number of cores to process, unless you want multi-processing the task to save time, set this to 1)
+### Step 2: Applying Latent Dirichlet Allocation on a Wikipedia dump::
 
-- The above command line code generate a json file that maps each wiki-article to its topic distributions)
+- Download and pre-process a Wikipedia dump, following the instructions from the first part of this tutorial ("Preparing the corpus"). At this point, you will have the required files for the following command line code: "tfidf", "wordids", and "cow".
 
-- you can also skip this section and directly download the [wiki-topic-distribution](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg) using our default setting (k=25, alpha = 0.0001): 
+- Run the LDA (Latent Dirichlet allocation) implementation from Gensim on the pre-processed wiki files: 
 
-### Sampling sentences for getting word vectors:
-- files required: 
-  1. a txt file containing all the words
-  2. processed-wiki-corpus to sample sentence, you can download our pre-processed [wiki-file](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS)
-  3. wiki-topic-distribution json file
+- `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` 
+ 
+- In this case, the hyper-parameter "k", which represents the number of topics, is set to 25, while the hyperparameter "alpha" is set to 0.0001. These correspond to the values that were used in our experiments. Workers is the number of CPU cores which should be used to process the data.
 
-- Run command `python3 word_wiki_mention.py`
-  (this line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of times that word's occurance)
-- Run command `python3 sampling_sentences.py` 
-- The above script generate two folders, both of them contains words and their selected sampling sentences. The only difference is that they make use of different strategies to selected sample sentence:
-  1. randomly select sample sentences for a word from all the sentences mentioning that word (used for obtaining single vector of each word)
-  2. select sample sentences for a word according to the topic distributions of that word (used for obtaining topic-specific vector of each word)
+- The above command line code generates a JSON file which maps each Wikipedia article to its topic distribution.
+
+- The resulting topic distribution can also be downloaded here: [wiki-topic-distribution](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg) for our default setting (k=25, alpha = 0.0001) 
+
+### Step 3: Sampling sentences for getting word vectors:
+- For this step, the following files are needed: 
+  1. A plain text file containing all the words for which a vector needs to be obtained (cf. Step 1).
+  2. A preprocessed Wikipedia corpus; the corpus that we used can be found here:[wiki-file](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS)
+  3. The wiki-topic-distribution JSON file obtained in Step 2.
+
+- Run the following command:
+
+- python3 word_wiki_mention.py
+
+- This command generates a nested dictionary in which each word maps to the Wikipedia articles that mention it, which is associated with the number of occurrence of that word.
+- Run the following command:
+- `python3 sampling_sentences.py` 
+- The above script generates two folders, both of them containing words and their selected sampling sentences. The only difference is that they make use of different strategies for sampling the sentences:
+  1. randomly select sentences for a word, from all the sentences mentioning that word 
+  2. select sample sentences for a word according to the topic distributions of that word 
 
 ### Obtaining vectors using contextual language models (BERT<base,large>,ROBERTA<base,large>)
 - Run command `python3 word_topic_vector.py` (this script is missing... upload it soon)
 
-## Download word Vectors
+## Download word vectors
 
 - [all C-vectors](https://zenodo.org/record/4925042#.YMKch3VKg5l) 
 - [all T-vector](https://zenodo.org/record/4921323#.YMKcvHVKg5k) 
