@@ -12,7 +12,7 @@ This open source implementaton will guide you step by step to obtain these word-
 
 ## Building word-topic-vectors from scratch
 
-###Requirements
+### Requirements
 - Python3
 - Numpy
 - Torch
