@@ -1,4 +1,4 @@
-u# Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection
+# Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection
 
 ## Introduction
 
