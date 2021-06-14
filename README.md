@@ -17,6 +17,7 @@ This open source implementaton will guide you step by step to obtain these word-
 - Numpy
 - Torch
 - gensim
+- nltk
 
 ### collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case)
 
