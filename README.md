@@ -2,11 +2,13 @@
 
 ## Introduction
 
-Static word vectors remain important in applications where word meaning has to be modelled in the absence of context. In this project, we propose a method for learning high-quality static word vector by taking advantage of contextualized language models (BERT,RoBERTa). Instread of representing a word as a single vector, we model each word as several vectors which derive its semantic properties from articles of different topics (economics, politics, education, and so on). 
+Static word vectors remain important in applications where word meaning has to be modelled in the absence of context. 
 
-For example, our representation for word "banana" have several topics-specific vectors corresponding to the topics of food, biology, industury. This make our static word vector become context sensitive in some sense.
+In our paper (Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection), we propose a method for learning high-quality static word vector by taking advantage of contextualized language models (BERT,RoBERTa). Instread of representing a word as a single vector, we model each word as several vectors which derive its semantic properties from articles of different topics (economics, politics, education, and so on).
 
-This repository will guide you step by step to obtain these word-topic-vectors. Also, you could skip these steps and directly download all the word-vector experimented in our paper. 
+For example, our representation for word "banana" have several topics-specific vectors corresponding to the topics of food, biology, industury. This make our static word vector become context sensitive in some sense. Not only does these topic-specifc-vector take advantage of diversived context, the topic partition    
+
+This open source implementaton will guide you step by step to obtain these word-topic-vectors. Also, you could skip these steps and directly download all the word-vector experimented in our paper. 
 
 ## Building word-topic-vectors from scratch
 
