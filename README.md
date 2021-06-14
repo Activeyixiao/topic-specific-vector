@@ -16,13 +16,13 @@ This open source implementaton will guide you step by step to obtain these word-
 - Python3
 - Numpy
 - Torch
-- gensim
-- nltk
+- Gensim
+- NLTK
 
-### collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case)
+### collect all the words from the evaluation dataset 
 
-- the link to download these words: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
-- You can also prepare a txt file containing all words from your interested dataset instead. 
+- Download words (words from McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case): https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
+- You could also prepare your own txt file containing all words your interested.
 
 ### Apply LDA on wiki-dump:
 - In this step we apply LDA (Latent Dirichlet allocation) on wiki-dump and get k-topic mixed distributions.
