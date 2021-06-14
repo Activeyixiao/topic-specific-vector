@@ -22,7 +22,7 @@ This open source implementaton will guide you step by step to obtain these word-
 ### Collect all the words from the evaluation dataset 
 
 - Download words (words from McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case): https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
-- You could also prepare your own txt file containing all words your interested.
+- You could also prepare your own txt file containing all words that you are interested.
 
 ### Applying LDA on wiki-dump:
 
