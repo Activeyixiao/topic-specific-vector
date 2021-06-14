@@ -28,7 +28,7 @@ This open source implementaton will guide you step by step to obtain these word-
 
 - Download and pre-process the wiki-article following the instruction on this [tutorial](https://radimrehurek.com/gensim/wiki.html) until you finish the first part: "Preparing the corpus". By then, you will get required large files ("tfidf", "wordids", and "cow") for the following command line code.
 
-- run LDA (Latent Dirichlet allocation) on the pre-precessed wiki files: `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` (The hyper-parameter "k" is number of topics, you can set different number on this; "alpha" is the alpha value for LDA, you can fine-tunning this value to get desired topic clusters; workers is number of cores to process, unless you want multi-processing the task to save time, set this to 1)
+- run LDA (Latent Dirichlet allocation) on the pre-precessed wiki files: `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` (The hyper-parameter "k" is number of topics, you can try different value on this; "alpha" is the alpha value for LDA, you can fine-tunning this value to get desired topic clusters; workers is number of cores to process, unless you want multi-processing the task to save time, set this to 1)
 
 - The above command line code generate a json file that maps each wiki-article to its topic distributions)
 
