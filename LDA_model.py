@@ -2,7 +2,6 @@ import logging
 import gensim
 import os
 import numpy as np
-import pandas as pd
 from collections import defaultdict
 import pickle
 import gensim
