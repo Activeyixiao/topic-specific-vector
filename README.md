@@ -25,9 +25,16 @@ This open source implementaton will guide you step by step to obtain these word-
 - You could also prepare your own txt file containing all words your interested.
 
 ### Apply LDA on wiki-dump:
-- In this step we apply LDA (Latent Dirichlet allocation) on wiki-dump and get k-topic mixed distributions.
-- Follow the beginning part of instruction on this tutorial (https://radimrehurek.com/gensim/wiki.html) and get required files (tfidf, wordids, and cow as required for the below command line) for wikidump
-- run LDA on the output documents: `python3 LDA_model.py -k -alpha -wordids -tfidf -bow -workers -build_dir` (This command generate a json file maps each wiki-tilte to its topic distributions)
+
+- Download and pre-process the wiki-article following the instruction on this [tutorial](https://radimrehurek.com/gensim/wiki.html) until you finish the first part: "Preparing the corpus". By then, you will get required large files ("tfidf", "wordids", and "cow") for the following command line code.
+
+- run LDA (Latent Dirichlet allocation) on the pre-precessed wiki files: `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` 
+  The hyper-parameter "k" is number of topics, "alpha" is the alpha value for LDA, workers is number of cores to process. 
+- 
+- (This command generate a json file maps each wiki-tilte to its topic distributions)
+
+- In this step LDA () is applied on wiki-dump and get k-topic mixed distributions.
+
 - you can also skip this section and directly download the wiki-topic-distribution in our experiment setting (k=25, alpha = 0.0001): https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
 
 ### Sampling sentences for word vectors:
