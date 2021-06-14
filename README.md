@@ -49,7 +49,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 - Run the following command:
 
-- python3 word_wiki_mention.py
+- `python3 word_wiki_mention.py
 
 - This command generates a nested dictionary in which each word maps to the Wikipedia articles that mention it, which is associated with the number of occurrence of that word.
 - Run the following command:
