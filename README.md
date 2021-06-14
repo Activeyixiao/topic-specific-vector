@@ -8,9 +8,15 @@ In our recent paper [Deriving Word Vectors from Contextualized Language Models -
 
 For example, our representation for word "banana" have several topics-specific vectors corresponding to the topics of food, biology, industury. This make our static word vector become context sensitive in some sense.    
 
-This open source implementaton will guide you step by step to obtain these word-topic-vectors. Also, you could skip these steps and directly download all the word-vector experimented in our paper. 
+This open source implementaton will guide you step by step to obtain these word-topic-vectors. You could also skip these steps and directly download all the word-vector experimented in our paper. 
 
 ## Building word-topic-vectors from scratch
+
+###Requirements
+- Python3
+- Numpy
+- Torch
+- 
 
 ### collect all the words from the evaluation dataset (McRae-Feature-Norm, CSLB, WordNet-SuperSense, BabelNet-Domain in our case)
 
