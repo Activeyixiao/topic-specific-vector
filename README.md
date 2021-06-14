@@ -44,8 +44,8 @@ This open source implementaton will guide you step by step to obtain these word-
   (this line generate a nested dictionary in which each word maps to wikipages that mention it which is assocaiated with the number of times that word's occurance)
 - Run command `python3 sampling_sentences.py` 
 - The above script generate two folders, both of them contains words and their selected sampling sentences. The only difference is that they make use of different strategy to selected sample sentence:
-  1.randomly select sample sentences for a word from all the sentences mentioning that word (used for obtaining single vector of each word)
-  2.select sample sentences for a word according to the topic distributions of that word (used for obtaining topic-specific vector of each word)
+  C-type. randomly select sample sentences for a word from all the sentences mentioning that word (used for obtaining single vector of each word)
+  T-type. select sample sentences for a word according to the topic distributions of that word (used for obtaining topic-specific vector of each word)
 
 ### Obtaining vectors using contextual language models (BERT<base,large>,ROBERTA<base,large>)
 - Run command `python3 word_topic_vector.py` (this script is missing... upload it soon)
