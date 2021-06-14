@@ -2,9 +2,7 @@
 
 ## Introduction
 
-Static word vectors remain important in applications where word meaning has to be modelled in the absence of context.
-
-In this project, we propose a method for learning high-quality static word vector by taking advantage of contextualized language models (BERT,RoBERTa). Instread of representing a word as a single vector, we model each word as several vectors which derive its semantic properties from articles of different topics (economics, politics, education, and so on). 
+Static word vectors remain important in applications where word meaning has to be modelled in the absence of context. In this project, we propose a method for learning high-quality static word vector by taking advantage of contextualized language models (BERT,RoBERTa). Instread of representing a word as a single vector, we model each word as several vectors which derive its semantic properties from articles of different topics (economics, politics, education, and so on). 
 
 For example, our representation for word "banana" have several topics-specific vectors corresponding to the topics of food, biology, industury. This make our static word vector become context sensitive in some sense.
 
