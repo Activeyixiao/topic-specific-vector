@@ -52,9 +52,9 @@ This open source implementaton will guide you step by step to obtain these word-
 
 ## Download word Vectors
 
-- [all C-vectors](https://zenodo.org/record/4925042#.YMKch3VKg5l)
-- [all T-vector](https://zenodo.org/record/4921323#.YMKcvHVKg5k)
-- [all A-vector](https://zenodo.org/record/4925059#.YMKjPHVKg5k)
+- [all C-vectors](https://zenodo.org/record/4925042#.YMKch3VKg5l) 
+- [all T-vector](https://zenodo.org/record/4921323#.YMKcvHVKg5k) 
+- [all A-vector](https://zenodo.org/record/4925059#.YMKjPHVKg5k) 
 - [all Tmask-pca-vector](https://zenodo.org/record/4925073#.YMKjw3VKg5k)
 - [Skip-gram trained on Wikipedia](https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/ERPqned64qRFv-ri5_jN0CIB5z2V7XlKD9I3qm93A80wAw?e=Uu3LvF)
 - [CBOW trained on Wikipedia](https://drive.google.com/file/d/171iSHR6GcL3k4IB2JsblHJuifoFarmFZ/view?usp=sharing)
