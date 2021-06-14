@@ -1,4 +1,4 @@
-# Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection
+u# Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection
 
 ## Introduction
 
@@ -32,7 +32,7 @@ This open source implementaton will guide you step by step to obtain these word-
 
 - The above command line code generate a json file that maps each wiki-article to its topic distributions)
 
-- you can also skip this section and directly download the wiki-topic-distribution in our experiment setting (k=25, alpha = 0.0001): https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg
+- you can also skip this section and directly download the [wiki-topic-distribution](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg) using our default setting (k=25, alpha = 0.0001): 
 
 ### Sampling sentences for word vectors:
 - sampling sentences using two strategies (C and T types respectively)
