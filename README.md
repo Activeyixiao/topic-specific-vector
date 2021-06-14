@@ -6,7 +6,7 @@ Static word vectors remain important in applications where word meaning has to b
 
 For example, our representation for word "banana" have several topics-specific vectors corresponding to the topics of food, biology, industury. This make our static word vector become context sensitive in some sense.
 
-This repository will guide you step by step to obtain word-topic-vectors. Also, you could skip these steps and directly download all the word-vector as tested in our paper. 
+This repository will guide you step by step to obtain word-topic-vectors. Also, you could skip these steps and directly download all the word-vector experimented in our paper. 
 
 ## Building word-topic-vectors from scratch
 
