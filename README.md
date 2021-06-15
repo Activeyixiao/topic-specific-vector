@@ -23,7 +23,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 - The code requires a text file containing the vocabulary, i.e. the set of words for which vector representations need to be obtained. This vocabulary is encoded as a plain text file, with one word per line.
 
-- The vocabulary corresponding to the experiments from our paper can be downloaded here: https://cf-my.sharepoint.com/:t:/g/personal/wangy306_cardiff_ac_uk/EXg5FWbRhLVDlXrPAd0vwCUBNkMTiJGiSRTFQtaYtOycaA?e=nSpwYY
+- The vocabulary corresponding to the experiments from our paper can be downloaded here: https://zenodo.org/record/4954493#.YMhkTHVKg5k
 
 - In this case, the vocabulary consists of all words from the four evaluation dataset: the extended McRae feature norms, CSLB, WordNet supersenses and BabelNet domains
 
