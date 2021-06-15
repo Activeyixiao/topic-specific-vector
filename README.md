@@ -27,7 +27,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 - In this case, the vocabulary consists of all words from the four evaluation dataset: the extended McRae feature norms, CSLB, WordNet supersenses and BabelNet domains
 
-### Step 2: Applying Latent Dirichlet Allocation on a Wikipedia dump::
+### Step 2: Applying Latent Dirichlet Allocation on a Wikipedia dump:
 
 - Download and pre-process a Wikipedia dump, following the instructions from the first part of this tutorial ("Preparing the corpus"). At this point, you will have the required files for the following command line code: "tfidf", "wordids", and "cow".
 
