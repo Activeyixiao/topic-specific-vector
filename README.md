@@ -75,17 +75,18 @@ This document contains step-by-step instructions for obtaining these topic-speci
 - Run the following command: 
 - `python3 nn_classifier/nnclassifier/run_network.py -dataset -vector_type -model_type -embed_path -batch_size -infeatures learning_rate -num_epoch -weight_decay -seed -gpu`
 - Explaination of the hyper-parameter from above line: 
+ 
  1. dataset:
- 2. vector_type:
- 3. model_type:
- 4. embed_path:
- 5. batch_size:
- 6. infeature:
+ 2. embed_path:
+ 3. vector_name:
+ 4. vector_type:
+ 5. in_feature:
+ 6. batch_size:
  7. learning_rate:
  8. num_epoch:
  9. weight_decay:
  10. seed:
  11. gpu:
- 
+
 
 
