@@ -73,20 +73,17 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 ## Run evaluations on lexical feature classification
 - Run the following command: 
-- `python3 nn_classifier/nnclassifier/run_network.py -dataset -vector_type -model_type -embed_path -batch_size -infeatures learning_rate -num_epoch -weight_decay -seed -gpu`
+- `python3 nn_classifier/nnclassifier/run_network.py -dataset -embed_path -vector_name -vector_type -infeatures -batch_size -learning_rate -num_epoch`
 - Explaination of the hyper-parameter from above line: 
  
  1. dataset:
  2. embed_path:
  3. vector_name:
  4. vector_type:
- 5. in_feature:
+ 5. in_feature: dimenion of the word vector. e.g 300 for word2vec, 1024 for bert-large, 768 for bert-base
  6. batch_size:
  7. learning_rate:
  8. num_epoch:
- 9. weight_decay:
- 10. seed:
- 11. gpu:
 
 
 
