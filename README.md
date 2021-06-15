@@ -33,9 +33,9 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 - Run the LDA (Latent Dirichlet allocation) implementation from Gensim on the pre-processed wiki files: 
 
-- `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` 
+  - `python3 LDA_model.py -k 25 -alpha 0.0001 -wordids wordids.txt -tfidf wiki_tiidf -bow wiki.bow -workers 1 -build_dir build_folder` 
  
-- In this case, the hyper-parameter "k", which represents the number of topics, is set to 25, while the hyperparameter "alpha" is set to 0.0001. These correspond to the values that were used in our experiments. Workers is the number of CPU cores which should be used to process the data.
+  - In this case, the hyper-parameter "k", which represents the number of topics, is set to 25, while the hyperparameter "alpha" is set to 0.0001. These correspond to the values that were used in our experiments. Workers is the number of CPU cores which should be used to process the data.
 
 - The above command line code generates a JSON file which maps each Wikipedia article to its topic distribution.
 
@@ -43,18 +43,18 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 ### Step 3: Sampling sentences for getting word vectors:
 - For this step, the following files are needed: 
-  1. A plain text file containing all the words for which a vector needs to be obtained (cf. Step 1).
-  2. A preprocessed Wikipedia corpus; the corpus that we used can be found here:[wiki-file](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS)
-  3. The wiki-topic-distribution JSON file obtained in Step 2.
+  - A plain text file containing all the words for which a vector needs to be obtained (cf. Step 1).
+  - A preprocessed Wikipedia corpus; the corpus that we used can be found here:[wiki-file](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EYJR4aNwc0pJprgI7dh9TeIBIn5bjcsIQTrB0cyt2A1AOQ?e=0H89AS)
+  - The wiki-topic-distribution JSON file obtained in Step 2.
 
 - Run the following command:
 
-- `python3 word_wiki_mention.py`
+  - `python3 word_wiki_mention.py`
 
 - This command generates a nested dictionary in which each word maps to the Wikipedia articles that mention it, which is associated with the number of occurrence of that word.
 - Run the following command:
-- `python3 sampling_sentences.py` 
-- The above script generates two folders, both of them containing words and their selected sampling sentences. The only difference is that they make use of different strategies for sampling the sentences:
+  - `python3 sampling_sentences.py` 
+  - The above script generates two folders, both of them containing words and their selected sampling sentences. The only difference is that they make use of different strategies for sampling the sentences:
   1. folder "concept mention general" : randomly select sentences for a word, from all the sentences mentioning that word 
   2. folder "concept_mention_page_25" : select sample sentences for a word according to the topic distributions of that word 
 
@@ -73,7 +73,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 ## Run evaluations on lexical feature classification
 - Run the following command: 
-- `python3 nn_classifier/nnclassifier/run_network.py -dataset -embed_path -vector_name -vector_type -infeatures -batch_size -learning_rate -num_epoch`
+  - `python3 nn_classifier/nnclassifier/run_network.py -dataset -embed_path -vector_name -vector_type -infeatures -batch_size -learning_rate -num_epoch`
 - Explaination of the hyper-parameter from above line: 
  
  1. dataset:
