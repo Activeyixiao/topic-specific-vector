@@ -55,7 +55,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
 - Run the following command:
   - `python3 sampling_sentences.py` 
   - The above script generates two folders, both of them containing words and their selected sampling sentences. The only difference is that they make use of different strategies for sampling the sentences:
-  - 
+
     - folder "concept mention general" : randomly select sentences for a word, from all the sentences mentioning that word 
     - folder "concept_mention_page_25" : select sample sentences for a word according to the topic distributions of that word 
 
