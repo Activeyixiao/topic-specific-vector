@@ -72,5 +72,20 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
 
 ## Run evaluations on lexical feature classification
-- Run command: `python3 nn_classifier/nnclassifier/run_network.py -dataset -vector_type -embed_path -mask -batch_size -infeatures learning_rate -weight_decay -seed -gpu -num_epoch vector_name`
+- Run the following command: 
+- `python3 nn_classifier/nnclassifier/run_network.py -dataset -vector_type -model_type -embed_path -batch_size -infeatures learning_rate -num_epoch -weight_decay -seed -gpu`
+- Explaination of the hyper-parameter from above line: 
+ 1. dataset:
+ 2. vector_type:
+ 3. model_type:
+ 4. embed_path:
+ 5. batch_size:
+ 6. infeature:
+ 7. learning_rate:
+ 8. num_epoch:
+ 9. weight_decay:
+ 10. seed:
+ 11. gpu:
+ 
+
 
