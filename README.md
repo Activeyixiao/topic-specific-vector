@@ -51,7 +51,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
 
   - `python3 word_wiki_mention.py`
 
-- This command generates a nested dictionary in which each word maps to the Wikipedia articles that mention it, which is associated with the number of occurrence of that word.
+  - This command generates a nested dictionary in which each word maps to the Wikipedia articles that mention it, which is associated with the number of occurrence of that word.
 - Run the following command:
   - `python3 sampling_sentences.py` 
   - The above script generates two folders, both of them containing words and their selected sampling sentences. The only difference is that they make use of different strategies for sampling the sentences:
