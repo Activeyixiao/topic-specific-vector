@@ -37,7 +37,7 @@ This document contains step-by-step instructions for obtaining these topic-speci
  
   - In this case, the hyper-parameter "k", which represents the number of topics, is set to 25, while the hyperparameter "alpha" is set to 0.0001. These correspond to the values that were used in our experiments. Workers is the number of CPU cores which should be used to process the data.
 
-- The above command line code generates a JSON file which maps each Wikipedia article to its topic distribution.
+  - The above command line code generates a JSON file which maps each Wikipedia article to its topic distribution.
 
 - The resulting topic distribution can also be downloaded here: [wiki-topic-distribution](https://cf-my.sharepoint.com/:u:/g/personal/wangy306_cardiff_ac_uk/EQGaudFrhFdFllXBh180TEUBS_eXrGLapKex4o3sv98zog?e=kDGVKg) for our default setting (k=25, alpha = 0.0001) 
 
