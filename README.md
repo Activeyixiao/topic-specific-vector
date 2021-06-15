@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Static word vectors remain important in applications where word meaning has to be modelled in the absence of context :smiley:. 
+:smiley: Static word vectors remain important in applications where word meaning has to be modelled in the absence of context. 
 
 In our recent paper [Deriving Word Vectors from Contextualized Language Models - using Topic-Aware Mention Selection](), we propose a method for learning high-quality static word vectors by taking advantage of contextualized language models (BERT,RoBERTa). Instead of representing a word as a single vector, we model each word as several vectors, which derive its semantic properties from articles on different topics (economics, politics, education, and so on).
 
